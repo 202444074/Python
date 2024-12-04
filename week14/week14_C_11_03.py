@@ -17,7 +17,8 @@ if __name__ == "__main__":
 
     books = [] # 리스트로 바꿈
 
-    members = os.listdir(mypath)    for member in members:
+    members = os.listdir(mypath)    
+    for member in members:
         member_fullfile = os.path.join(mypath, member)
         if os.path.isfile(member_fullfile)
         # 111.txt 에서 도서 번호인 111을 가져와야함
